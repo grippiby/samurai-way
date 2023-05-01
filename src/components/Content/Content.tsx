@@ -1,9 +1,11 @@
 import React from 'react'
+import s from './Content.module.css'
+import { MyPosts } from '../Posts/MyPosts/MyPosts'
 
 const Content = () => {
 	return (
 		<>
-			<div className="content">
+			<div className={s.content}>
 				контент
 				<div>
 					<img
@@ -11,6 +13,7 @@ const Content = () => {
 						alt=""
 					/>
 				</div>
+				<MyPosts />
 			</div>
 		</>
 	)

@@ -1,0 +1,9 @@
+.content {
+	grid-area: content;
+	background: yellow;
+	border: 4px solid #000;
+}
+
+.content img {
+	width: 35%;
+}
